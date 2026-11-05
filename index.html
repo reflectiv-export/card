@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="light">
 <title>Laura Gómez · Reflectiv</title>
-<meta name="description" content="Laura Gómez — Commerciale Export · Reflectiv® Window Films">
+<meta name="description" content="Laura Gómez — Comercial España · Reflectiv® Window Films">
 <meta property="og:title" content="Laura Gómez · Reflectiv">
-<meta property="og:description" content="Commerciale Export · Reflectiv® Window Films · Adheazy · Just'N Print · RXPPF">
+<meta property="og:description" content="Comercial España · Reflectiv® Window Films · Adheazy · Just'N Print · RXPPF">
 <meta name="theme-color" content="#ffffff">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <style>
 :root{
   color-scheme:light;
@@ -20,7 +20,8 @@
   --tint:#f1f3f9;
   --ink:#0b1020; --ink-2:#3b4256; --muted:#6c7386; --line:#e7e9f0;
   --bg:#ffffff; --field:#f5f6fa;
-  --serif:"Instrument Serif",Georgia,serif;
+  --serif:"DM Serif Display",Georgia,serif;
+  --go:#16a34a; --go-2:#15803d; --wa:#25d366;
   --sans:Figtree,system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -56,20 +57,21 @@ a{color:inherit;text-decoration:none}
 .avatar{width:128px;height:128px;margin:0 auto;border-radius:50%;padding:5px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06),0 14px 34px rgba(0,0,0,.10)}
 .avatar img,.avatar span{width:100%;height:100%;border-radius:50%;display:block;object-fit:cover}
 .avatar span{display:grid;place-items:center;background:var(--brand);color:#fff;font:400 44px/1 var(--serif)}
-h1{font:400 44px/1 var(--serif);letter-spacing:-.01em;margin-top:22px;color:var(--ink)}
+h1{font:400 40px/1.05 var(--serif);letter-spacing:-.005em;margin-top:22px;color:var(--ink)}
 .role{margin-top:12px;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--brand)}
 .org{margin-top:6px;font-size:15px;color:var(--muted)}
 .speaks{margin-top:4px;font-size:13px;color:var(--muted)}
 
 /* acciones */
-.cta{margin-top:28px;display:flex;align-items:center;justify-content:center;gap:10px;height:58px;border-radius:18px;background:var(--brand);color:#fff;font-weight:600;font-size:16.5px;letter-spacing:.01em;transition:transform .15s ease,background .2s ease}
-.cta:hover{background:var(--brand-2)}
+.cta{margin-top:28px;display:flex;align-items:center;justify-content:center;gap:10px;height:58px;border-radius:18px;background:var(--go);color:#fff;font-weight:700;font-size:19px;letter-spacing:.01em;transition:transform .15s ease,background .2s ease}
+.cta:hover{background:var(--go-2)}
 .cta:active{transform:scale(.985)}
 .cta svg{width:20px;height:20px}
 .quick{display:grid;grid-template-columns:repeat(3,1fr);margin-top:20px}
 .quick a{display:flex;flex-direction:column;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--ink-2)}
 .quick i{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:var(--tint);color:var(--brand);transition:background .2s ease,color .2s ease}
 .quick a:hover i{background:var(--brand);color:#fff}
+.quick a.wa i,.quick a.wa:hover i{background:var(--wa);color:#fff}
 .quick svg{width:22px;height:22px}
 .links{margin-top:18px;border-top:1px solid var(--line)}
 .links a{display:flex;align-items:center;justify-content:space-between;padding:15px 2px;border-bottom:1px solid var(--line);font-weight:600;font-size:15px}
@@ -78,7 +80,7 @@ h1{font:400 44px/1 var(--serif);letter-spacing:-.01em;margin-top:22px;color:var(
 /* secciones */
 .sec{margin-top:40px}
 .eyebrow{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);text-align:center}
-.sec h2{font:400 30px/1.1 var(--serif);text-align:center;margin-top:8px}
+.sec h2{font:400 27px/1.15 var(--serif);text-wrap:balance;text-align:center;margin-top:8px}
 .sec h2 em{font-style:italic;color:var(--brand)}
 
 /* marcas: logos solos sobre blanco */
@@ -92,7 +94,7 @@ a.brand:hover small{color:var(--brand)}
 
 /* formulario */
 .lead{margin-top:44px;background:var(--tint);border-radius:24px;padding:26px 20px 22px}
-.lead h3{font:400 28px/1.1 var(--serif);text-align:center}
+.lead h3{font:400 25px/1.15 var(--serif);text-wrap:balance;text-align:center}
 .lead p.sub{color:var(--muted);font-size:14.5px;text-align:center;margin:8px 0 18px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .field{display:block;margin-bottom:10px}
@@ -112,7 +114,7 @@ a.brand:hover small{color:var(--brand)}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .thanks{text-align:center;padding:10px 0}
 .thanks .tick{width:56px;height:56px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;margin:0 auto 12px;font-size:26px}
-.thanks b{font:400 26px/1.15 var(--serif);font-weight:400}
+.thanks b{font:400 23px/1.2 var(--serif);font-weight:400}
 
 footer{margin-top:34px;text-align:center;color:var(--muted);font-size:12.5px;line-height:1.7}
 footer a{font-weight:600;color:var(--ink-2)}
@@ -128,7 +130,7 @@ footer a{font-weight:600;color:var(--ink-2)}
 #qrview{position:fixed;inset:0;z-index:10;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:24px;text-align:center}
 #qrview img.lg{height:36px}
 #qrBox img,#qrBox canvas{display:block;width:280px!important;height:280px!important}
-#qrview .who{font:400 34px/1 var(--serif)}
+#qrview .who{font:400 30px/1 var(--serif)}
 #qrview .scan{font-size:14px;font-weight:600;color:var(--muted);letter-spacing:.04em}
 #qrview .url{font-size:12px;color:var(--muted);word-break:break-all;max-width:300px}
 #qrview label{font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:center}
@@ -150,8 +152,8 @@ footer a{font-weight:600;color:var(--ink-2)}
     <section class="id">
       <div class="avatar rise d1" id="avatar"></div>
       <h1 class="rise d2" id="name">Laura Gómez</h1>
-      <p class="role rise d2" data-t="role">Comercial Export</p>
-      <p class="org rise d3">Reflectiv® Window Films · <span data-t="country">Francia</span></p>
+      <p class="role rise d2" data-t="role">Comercial España</p>
+      <p class="org rise d3">Reflectiv® Window Films</p>
       <p class="speaks rise d3" id="speaks" hidden><span data-t="speaks">Hablo</span> <span id="speaksVal"></span></p>
     </section>
 
@@ -161,7 +163,7 @@ footer a{font-weight:600;color:var(--ink-2)}
     </a>
 
     <nav class="quick rise d5">
-      <a id="wa" href="#" target="_blank" rel="noopener" data-ev="whatsapp"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"/></svg></i>WhatsApp</a>
+      <a id="wa" class="wa" href="#" target="_blank" rel="noopener" data-ev="whatsapp"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"/></svg></i>WhatsApp</a>
       <a id="call" href="#" data-ev="llamada"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></i><span data-t="call">Llamar</span></a>
       <a id="mail" href="#" data-ev="email"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></i>Email</a>
     </nav>
@@ -242,40 +244,40 @@ footer a{font-weight:600;color:var(--ink-2)}
   /* ==================================================================== */
 
   const T = {
-    es: { role:"Comercial Export", country:"Francia", speaks:"Hablo", save:"Guardar contacto", call:"Llamar", catalog:"Catálogo PDF",
+    es: { role:"Comercial España", speaks:"Hablo", save:"Guardar contacto", call:"Llamar", catalog:"Catálogo PDF",
       brandsKicker:"Grupo Reflectiv", brandsTitle:"Cuatro marcas, <em>un solo contacto</em>",
       leadTitle:"¿Te envío el catálogo y la lista de precios?", leadSub:"Déjame tus datos y te escribo en tu idioma.",
       fName:"Nombre *", fCompany:"Empresa", fCountry:"País", fContact:"Email o teléfono *", fInterest:"Me interesa",
       consent:"Acepto que Reflectiv use estos datos para contactarme.", send:"Enviar", thanks:"¡Gracias! Te escribo muy pronto.",
-      waHi:"Hola {n}, ", waFair:"Hola {n}, nos conocimos en {f}. ",
+      waHi:"Hola {n}, nos conocimos en la feria y estoy interesado en sus productos.", waFair:"Hola {n}, nos conocimos en la feria {f} y estoy interesado en sus productos.",
       b:{ reflectiv:"Láminas para ventanas: solar, seguridad, privacidad", adheazy:"Vinilo decorativo para muebles y paredes", justnprint:"Vinilos para impresión digital", rxppf:"Film de protección de pintura (PPF)" } },
-    en: { role:"Export Sales", country:"France", speaks:"I speak", save:"Save contact", call:"Call", catalog:"Catalogue PDF",
+    en: { role:"Sales · Spain", speaks:"I speak", save:"Save contact", call:"Call", catalog:"Catalogue PDF",
       brandsKicker:"Reflectiv Group", brandsTitle:"Four brands, <em>one contact</em>",
       leadTitle:"Want our catalogue and price list?", leadSub:"Leave your details and I'll get back to you in your language.",
       fName:"Name *", fCompany:"Company", fCountry:"Country", fContact:"Email or phone *", fInterest:"I'm interested in",
       consent:"I agree that Reflectiv may use these details to contact me.", send:"Send", thanks:"Thank you! I'll be in touch very soon.",
-      waHi:"Hi {n}, ", waFair:"Hi {n}, we met at {f}. ",
+      waHi:"Hi {n}, we met at the trade fair and I'm interested in your products.", waFair:"Hi {n}, we met at {f} and I'm interested in your products.",
       b:{ reflectiv:"Window films: solar, safety, privacy", adheazy:"Decorative vinyl for furniture and walls", justnprint:"Digital printing vinyls", rxppf:"Paint protection film (PPF)" } },
-    fr: { role:"Commerciale Export", country:"France", speaks:"Je parle", save:"Enregistrer le contact", call:"Appeler", catalog:"Catalogue PDF",
+    fr: { role:"Commerciale Espagne", speaks:"Je parle", save:"Enregistrer le contact", call:"Appeler", catalog:"Catalogue PDF",
       brandsKicker:"Groupe Reflectiv", brandsTitle:"Quatre marques, <em>un seul contact</em>",
       leadTitle:"Recevoir le catalogue et les tarifs ?", leadSub:"Laissez vos coordonnées, je vous réponds dans votre langue.",
       fName:"Nom *", fCompany:"Société", fCountry:"Pays", fContact:"E-mail ou téléphone *", fInterest:"Je suis intéressé(e) par",
       consent:"J'accepte que Reflectiv utilise ces données pour me recontacter.", send:"Envoyer", thanks:"Merci ! Je reviens vers vous très vite.",
-      waHi:"Bonjour {n}, ", waFair:"Bonjour {n}, nous nous sommes rencontrés au salon {f}. ",
+      waHi:"Bonjour {n}, nous nous sommes rencontrés au salon et je suis intéressé par vos produits.", waFair:"Bonjour {n}, nous nous sommes rencontrés au salon {f} et je suis intéressé par vos produits.",
       b:{ reflectiv:"Films pour vitrage : solaire, sécurité, intimité", adheazy:"Vinyle décoratif pour meubles et murs", justnprint:"Vinyles pour impression numérique", rxppf:"Film de protection carrosserie (PPF)" } },
-    it: { role:"Commerciale Export", country:"Francia", speaks:"Parlo", save:"Salva contatto", call:"Chiama", catalog:"Catalogo PDF",
+    it: { role:"Commerciale Spagna", speaks:"Parlo", save:"Salva contatto", call:"Chiama", catalog:"Catalogo PDF",
       brandsKicker:"Gruppo Reflectiv", brandsTitle:"Quattro marchi, <em>un solo contatto</em>",
       leadTitle:"Vuoi il catalogo e il listino prezzi?", leadSub:"Lascia i tuoi dati, ti rispondo nella tua lingua.",
       fName:"Nome *", fCompany:"Azienda", fCountry:"Paese", fContact:"Email o telefono *", fInterest:"Mi interessa",
       consent:"Acconsento che Reflectiv usi questi dati per ricontattarmi.", send:"Invia", thanks:"Grazie! Ti scrivo a breve.",
-      waHi:"Ciao {n}, ", waFair:"Ciao {n}, ci siamo conosciuti a {f}. ",
+      waHi:"Ciao {n}, ci siamo conosciuti in fiera e sono interessato ai vostri prodotti.", waFair:"Ciao {n}, ci siamo conosciuti alla fiera {f} e sono interessato ai vostri prodotti.",
       b:{ reflectiv:"Pellicole per vetri: solari, sicurezza, privacy", adheazy:"Vinile decorativo per mobili e pareti", justnprint:"Vinili per stampa digitale", rxppf:"Pellicola protettiva carrozzeria (PPF)" } },
-    pt: { role:"Comercial Export", country:"França", speaks:"Falo", save:"Guardar contacto", call:"Ligar", catalog:"Catálogo PDF",
+    pt: { role:"Comercial Espanha", speaks:"Falo", save:"Guardar contacto", call:"Ligar", catalog:"Catálogo PDF",
       brandsKicker:"Grupo Reflectiv", brandsTitle:"Quatro marcas, <em>um só contacto</em>",
       leadTitle:"Quer o catálogo e a tabela de preços?", leadSub:"Deixe os seus dados e respondo na sua língua.",
       fName:"Nome *", fCompany:"Empresa", fCountry:"País", fContact:"Email ou telefone *", fInterest:"Tenho interesse em",
       consent:"Aceito que a Reflectiv use estes dados para me contactar.", send:"Enviar", thanks:"Obrigada! Entro em contacto muito em breve.",
-      waHi:"Olá {n}, ", waFair:"Olá {n}, conhecemo-nos na {f}. ",
+      waHi:"Olá {n}, conhecemo-nos na feira e tenho interesse nos vossos produtos.", waFair:"Olá {n}, conhecemo-nos na feira {f} e tenho interesse nos vossos produtos.",
       b:{ reflectiv:"Películas para janelas: solar, segurança, privacidade", adheazy:"Vinil decorativo para móveis e paredes", justnprint:"Vinis para impressão digital", rxppf:"Película de proteção de pintura (PPF)" } }
   };
 
